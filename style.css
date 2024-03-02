@@ -1,0 +1,47 @@
+body
+{
+background-position: center;
+background-size: cover;
+}
+.heading{
+    width: 100%;
+    text-align: left;
+    position: sticky;
+}
+.heading h3{
+    display: inline;
+}
+.heading button{
+    float: right;
+    border: 1px solid white;
+}
+#start, #restart, #pause, #resume{
+    font-size: 30px;
+    border: 5px solid cyan;
+}
+#status{
+    font-size: 30px;
+    border: 5px solid cyan;
+}
+canvas{
+    border: 3px solid white;
+    box-shadow: 15px 15px 15px solid cyan;
+    border-radius: 20px;
+    border-color: cyan;;
+}
+.instruction_img{
+    width: 45%;
+    display: inline-block;
+}
+.modal-dialog{
+    width: 90%;
+}
+h4{
+    background-color: #ffffff;
+    margin-bottom: 0px;
+    line-height: 2;
+    font-weight: bolder;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
